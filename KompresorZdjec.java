@@ -58,7 +58,7 @@ public class KompresorZdjec extends JFrame {
     }
 
     static String presetName(int p) {
-        return p == 0 ? "Oryginał" : p + "p";
+        return p == 0 ? "Original" : p + "p";
     }
 
     static String ext(String fmt) {
